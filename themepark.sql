@@ -219,247 +219,14 @@ commit;
                                                    
                                                    extra commands
                                                    
-                                               for the right syntax to use near '-online:
-create database themepark-online' at line 1
-mysql> create database themepark-online;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-online' at line 1
+                                              
 mysql> create database themepark_online;
-Query OK, 1 row affected (0.00 sec)
+
 
 mysql> use themepark_online;
 Database changed
 mysql> source D:\Abdullah\Downloads\themepark.sql
-ERROR 1051 (42S02): Unknown table 'themepark_online.sales_line'
-ERROR 1051 (42S02): Unknown table 'themepark_online.sales'
-ERROR 1051 (42S02): Unknown table 'themepark_online.hours'
-ERROR 1051 (42S02): Unknown table 'themepark_online.attraction'
-ERROR 1051 (42S02): Unknown table 'themepark_online.ticket'
-ERROR 1051 (42S02): Unknown table 'themepark_online.employee'
-ERROR 1051 (42S02): Unknown table 'themepark_online.themepark'
-Query OK, 0 rows affected (0.03 sec)
 
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.10 sec)
-Records: 0  Duplicates: 0  Warnings: 0
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 1 row affected (0.00 sec)
-
-Query OK, 0 rows affected (0.00 sec)
-
-mysql> select * from tickets
-    -> ;
-ERROR 1146 (42S02): Table 'themepark_online.tickets' doesn't exist
-mysql> source "D:\Abdullah\Downloads\themepark.sql"
-ERROR:
-Failed to open file '"D:\Abdullah\Downloads\themepark.sql"', error: 22
-mysql> source "D:\Abdullah\Downloads\themepark.sql"
-ERROR:
-Failed to open file '"D:\Abdullah\Downloads\themepark.sql"', error: 22
 mysql> SELECT PARK_CODE, TICKET_NO, TICKET_TYPE, TICKET_PRICE,  TICKET_PRICE + ROUND((TICKET_PRICE *0.1),2)
     -> from ticket;
 +-----------+-----------+-------------+--------------+---------------------------------------------+
@@ -553,14 +320,7 @@ mysql> SELECT PARK_CODE, TICKET_TYPE, TICKET_PRICE
 +-----------+-------------+--------------+
 10 rows in set (0.00 sec)
 
-mysql> SELECT PARK_CODE, PARK_NAME, PARK_COUNTRY
-    -> FROM THEMEPARK
-    -> WHERE PARK_CODE < ‘UK2262’;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?UK2262?' at line 3
-mysql> SELECT PARK_CODE, PARK_NAME, PARK_COUNTRY
-    -> FROM TICKET
-    -> where park_code <'uk2262';
-ERROR 1054 (42S22): Unknown column 'PARK_NAME' in 'field list'
+
 mysql> SELECT PARK_CODE, PARK_NAME, PARK_COUNTRY
     -> FROM THEMEPARK
     -> WHERE PARK_CODE < "UK2262";
@@ -585,11 +345,7 @@ mysql> SELECT *
 +-----------+--------------+-------------+-----------+
 2 rows in set (0.01 sec)
 
-mysql> select*
-    -> from ticket
-    -> c\
-    -> c/
-    -> \c
+
 mysql> select emp_num, attract_no, hours_per_attract
     -> from hours
     -> where hours_per_attract between 5 and 10;
@@ -619,14 +375,7 @@ mysql> SELECT *
 +----------------+---------+-----------+----------+------------+
 4 rows in set (0.00 sec)
 
-mysql> select *
-    -> from ticket
-    -> where ticket_type in <'child','senior'>;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<'child','senior'>' at line 3
-mysql> select *
-    -> from ticket
-    -> where ticket_type in <"child","senior">;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<"child","senior">' at line 3
+
 mysql> select *
     -> from ticket
     -> where ticket_type in ('child','senior');
@@ -644,10 +393,6 @@ mysql> select *
 +-----------+--------------+-------------+-----------+
 8 rows in set (0.00 sec)
 
-mysql> SELECT EMP_LNAME, EMP_FNAME, EMP_NUM
-    -> FROM EMPLOYEE
-    -> WHERE EMP_FNAME LIKE ‘A%’;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?A%?' at line 3
 mysql> SELECT EMP_LNAME, EMP_FNAME, EMP_NUM
     -> FROM EMPLOYEE
     -> WHERE EMP_FNAME LIKE "A%";
@@ -722,19 +467,7 @@ mysql> SELECT PARK_NAME, PARK_COUNTRY
 +--------------+--------------+
 3 rows in set (0.00 sec)
 
-mysql> SELECT *
-    -> FROM ATTRACTION
-    -> WHERE (PARK_CODE LIKE ‘FR%’
-    -> AND ATTRACT_CAPACITY <50) OR (ATTRACT_CAPACITY > 100);
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?FR%?
-AND ATTRACT_CAPACITY <50) OR (ATTRACT_CAPACITY > 100)' at line 3
-mysql> AND ATTRACT_CAPACITY <50) OR (ATTRACT_CAPACITY > 100);SELECT *
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND ATTRACT_CAPACITY <50) OR (ATTRACT_CAPACITY > 100)' at line 1
-    -> FROM ATTRACTION
-    -> WHERE (PARK_CODE LIKE ‘FR%’
-    -> AND ATTRACT_CAPACITY <50) OR (ATTRACT_CAPACITY > 100);
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?FR%?
-AND ATTRACT_CAPACITY <50) OR (ATTRACT_CAPACITY > 100)' at line 3
+
 mysql> SELECT *
     -> FROM ATTRACTION
     -> WHERE (PARK_CODE LIKE "FR%"
@@ -820,10 +553,6 @@ mysql> select distinct(park_code)
 +-----------+
 3 rows in set (0.00 sec)
 
-mysql>  SELECT PARK_CODE, TICKET_TYPE, TICKET_PRICE
-    ->     -> FROM TICKET
-    -> ;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM TICKET' at line 2
 mysql> select * from themepark where park_code not like 'UK%';
 +-----------+---------------+--------------+--------------+
 | PARK_CODE | PARK_NAME     | PARK_CITY    | PARK_COUNTRY |
@@ -958,9 +687,6 @@ mysql> select transaction_no, line_price from sales_line where line_price > 50;
 +----------------+------------+
 13 rows in set (0.00 sec)
 
-mysql> SELECT * FROM Table ORDER BY ID DESC LIMIT 2
-    -> ;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Table ORDER BY ID DESC LIMIT 2' at line 1
 mysql> SELECT EMP_NUM, EMP_FNAME FROM EMPLOYEE ORDER BY EMP_NUM DESC LIMIT 2;
 +---------+-----------+
 | EMP_NUM | EMP_FNAME |
