@@ -24,8 +24,8 @@ CREATE PROCEDURE s2 (IN var1 varchar(25),IN var2 varchar(25),IN var3 varchar(25)
     begin
     insert into user values(var1,var2,var3,var4);
     end//
-> delimiter ;
-> call s2(1,"abc123","def321","abc123@yahoo.com");
+    delimiter ;
+call s2(1,"abc123","def321","abc123@yahoo.com");
  
 create procedure yahooavg(out var1 varchar(25))
     begin
@@ -36,9 +36,9 @@ call yahooavg(@out);
 select @out;
 delimiter //
 create procedure mingmail(out var1 varchar(25))
-    -> begin
-    -> select min(gmail) into var1 from summary;
-    -> end//
+   begin
+     select min(gmail) into var1 from summary;
+   end//
 delimiter ;
  call mingmail(@out);
 
